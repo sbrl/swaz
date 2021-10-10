@@ -1077,3 +1077,18 @@ if minetest.get_modpath("bucket")~=nil then
 		true
 	)
 end
+
+-- flowerpot mod support
+-- Ref https://github.com/minetest-mods/flowerpot/blob/master/api.md
+if minetest.get_modpath("flowerpot")~=nil then
+
+	flowerpot.register_node("swaz:lavender")
+	flowerpot.register_node("swaz:reed")
+	flowerpot.register_node("swaz:barberry_bush_leaves_with_berries")
+	flowerpot.register_node("swaz:pampas_grass")
+	flowerpot.register_node("swaz:swamp_grass")
+	flowerpot.register_node("swaz:tall_grass")
+	flowerpot.register_node("swaz:barberry_bush_leaves")
+	flowerpot.register_node("swaz:barberry_bush_sapling")
+
+end

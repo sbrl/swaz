@@ -18,4 +18,7 @@ read_globals = {
 
     -- MTG
     "default", "sfinv", "creative",
+
+    -- Mods we integrate with
+    "flowerpot"
 }
